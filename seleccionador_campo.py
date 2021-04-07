@@ -10,7 +10,7 @@ def read_employees(csv_file_location):
         employee_list.append(data)
     return employee_list
 
-employee_list = read_employees('/home/rduguet/Escritorio/cuarentena_python/empleados.csv')
+employee_list = read_employees('ubicacion_archivo.csv')
 
 
 def process_data(employee_list):
@@ -31,4 +31,4 @@ def reporte(dictionary,report_file):
             f.write(str(k)+' : '+str(dictionary[k])+'\n')
         f.close()
 
-reporte(dictionary,'/home/rduguet/Escritorio/cuarentena_python/empleados.csv')
+reporte(dictionary,'ubicacion_reporte')
