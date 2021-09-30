@@ -10,3 +10,5 @@ puedes usar el archivo csv en el mismo directorio, el script po defecto usará e
 que se puede cambiar a voluntad,  por otro lado tambien especificar una ruta para el reporte, 
 que idealmente no sea el mismo del archivo y en tal caso usar otro nombre para no sobreescribir
 sobre el archivo actual (archivo csv)
+
+Se agregan otras herramientas a posterior
